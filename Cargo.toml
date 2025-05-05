@@ -1,7 +1,16 @@
 [workspace]
+resolver = "3"   # Add this line
 members = [
-    "overwatch-core",
-    "overwatch-config",
-    "overwatch-utils",
-    "overwatch-ui"
+    "overwatch_core",
+    "overwatch_config",
+    "overwatch_utils",
+    "overwatch_ui"
 ]
+
+[package]
+name = "overwatch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+overwatch_core = { path = "overwatch_core" }
