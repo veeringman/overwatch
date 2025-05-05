@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "overwatch-core",
+    "overwatch-config",
+    "overwatch-utils",
+    "overwatch-ui"
+]
