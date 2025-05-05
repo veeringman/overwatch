@@ -50,7 +50,7 @@ The architecture is designed for modularity and performance. Traffic flows from 
 ### 1. Clone and build
 
 ```bash
-git clone https://github.com/yourusername/overwatch.git
+git clone https://github.com/veeringman/overwatch.git
 cd overwatch
 cargo build --release
 ```
@@ -111,7 +111,7 @@ cargo run -p overwatch-core -- --port 8080 --tls
 
 ## 📜 License
 
-MIT License © 2025 Your Name / Organization
+MIT License © 2025 Veer Man Inc.
 
 ---
 
